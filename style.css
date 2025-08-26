@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.5s, color 0.5s;
+  background: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#themeBtn {
+  background: #007BFF;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#submitBtn {
+  background: #28a745;
+  color: white;
+}
+
+#resetBtn {
+  background: #dc3545;
+  color: white;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+
+#outer {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+#innerBtn {
+  padding: 10px;
+  background: orange;
+  color: black;
+}
